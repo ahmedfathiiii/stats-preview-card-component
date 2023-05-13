@@ -12,6 +12,9 @@ body {
     display: flex;
     justify-content: center;
     font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+    margin: 0;
+    align-items: center;
 
 }
 
@@ -19,14 +22,12 @@ main {
     background-color: var(--Dark-desaturated-blue);
     display: flex;
     border-radius: 20px;
-    margin: 32px;
     overflow: hidden;
 }
 
 .headerphoto {
     mix-blend-mode: multiply;
     opacity: .75;
-    max-width: 100%;
     height: 100%;
     object-fit: cover;
 }
@@ -116,7 +117,6 @@ li p {
 
     main {
         max-width: 1035px;
-        transform: translateY(50%);
     }
 
 }
@@ -157,5 +157,6 @@ li p {
 
     .mobile {
         display: block;
+        max-width: 100%;
     }
 }
